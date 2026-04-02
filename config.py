@@ -8,7 +8,7 @@ class Config:
     ### Global config
     AUTHOR = None
     TORCH_DEVICE = 'cuda' # 'cpu' if no GPU is available, 'mps' for Apple silicon
-    OUTPUT_DIR = '/content/drive/MyDrive/IAAC/GenAI/Outputs'
+    OUTPUT_DIR = '/content/drive/MyDrive/IAAC_GenAI/Outputs'
     TIME_ZONE = -5 # Relative to UTC time
     ALGO_TYPE = None
     ALGO_NAME = None
