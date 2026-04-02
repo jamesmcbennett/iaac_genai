@@ -44,7 +44,7 @@ def set_image_path():
     os.makedirs(save_dir, exist_ok=True)
     Config.IMAGE_PATH = os.path.join(save_dir, Config.IMAGE_NAME)
 
-def save_meta(pipe):
+def save_yml(pipe):
     yml_path = f'{Config.IMAGE_PATH[:-4]}.yml'
     yml_pipe_path = f'{Config.IMAGE_PATH[:-4]}.pipe.yml'
 
@@ -64,7 +64,7 @@ def save_gif(frames):
   imageio.mimsave(save_path, frames, fps=Config.FPS, loop=0)
   return save_path
 
-def save_params_image(params, display_image=True):
+def save_svg(params, display_image=True):
   save_path = f'{Config.IMAGE_PATH[:-4]}.svg'
 
   top_margin = Config.TXT_FONT_SIZE
