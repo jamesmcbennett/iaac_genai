@@ -1,0 +1,13 @@
+# Originally created by Nono Martínez Alonso
+# Modified by James McBennett
+
+diffusers
+transformers
+torch
+accelerate
+scipy
+imageio
+matplotlib
+opencv-python
+svgwrite
+peft
